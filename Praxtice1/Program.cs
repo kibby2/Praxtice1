@@ -9,10 +9,10 @@ namespace Practice1
             return a + b;
         }
 
-        public int subtract(int a, int b)
+        /*public int subtract(int a, int b)
         {
             return a - b;
-        }
+        }*/
 
         static void Main(string[] args)
         {
@@ -42,8 +42,8 @@ namespace Practice1
                 }
                 else if (operation.ToUpper() == "S")
                 {
-                    int difference = programInstance.subtract(firstNum, secondNum);
-                    Console.WriteLine($"The difference is: {difference}");
+                   // int difference = programInstance.subtract(firstNum, secondNum);
+                    //Console.WriteLine($"The difference is: {difference}");
                 }
                 else if (operation.ToUpper() == "N")
                 {
